@@ -1,0 +1,245 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antares - Produtos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/paginaproduto.css" />
+  <link rel="stylesheet" href="CSS/slide.css" />
+  <link href="CSS/navbar.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Entrar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" class="form-control" id="loginEmail" />
+              </div>
+              <div class="form-group">
+                <label for="loginSenha">Senha</label>
+                <input type="password" class="form-control" id="loginSenha" />
+              </div>
+              <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a>.</small>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Fechar
+            </button>
+            <button type="button" class="btn btn-primary">Entrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="img/logo.png" style="width: 150px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 ms-5 mb-md-0" style="font-family: raleway">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">INÍCIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="servicos.html">SERVIÇOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">CONTATOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html" tabindex="-1" aria-disabled="true">SOBRE</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                MINHA CONTA
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Entrar</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="cadastro.html">Cadastrar-se</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" style="color: #ecd77b" href="trabalheConosco.html" tabindex="-1"
+                aria-disabled="true">TRABALHE CONOSCO</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" tabindex="-1" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" aria-disabled="true"><img src="img/man-user.png"
+                  class="botaocontaativa" width="20px" height="20px" /></a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="minhaconta.html">
+                    <img src="img/man-user (1).png" /> Perfil</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="historicodecompra.html">
+                    <img src="img/vista-lateral-vazia-do-carrinho-de-compras.png" />
+                    Histórico de compras</a>
+                </li>
+                <hr />
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <img src="img/sair.png" /> Sair</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex me-3 mt-3">
+           
+            
+            <button class="btn btn-outline-light" type="submit">
+              <a class="botaoprocurar" href="filtro.html">Buscar</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="pt-5 container marketing">
+    <div class="row featurette">
+      <div class="col-md-7 pb-3">
+        <h5 class="featurette-heading">Novo | 999 Vendidos</h5>
+        <h1>Manutenção de Sites</h1>
+        <p class="lead">
+          Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
+          ligula porta felis euismod semper. Praesent commodo cursus magna,
+          vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.
+        </p>
+        <p class="pt-4 preco">
+          R$999,999 <span class="ms-3 pt-2 promocao"><s>R$999,999</s></span>
+        </p>
+        <p class="parcela">10X R$99,99</p>
+        <p class="lead">
+          Lorem ipsum.<br />
+          Lorem ipsum.<br />
+          Lorem ipsum.<br />
+          Lorem ipsum.<br />
+          Lorem ipsum.
+        </p>
+        <p class="botaocontato">
+          <a class="btn btn-lg" href="contratarProduto.html" style="color: white">Comprar</a>
+        </p>
+      </div>
+      <div class="col-md-5 mt-5 pt-2">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto imagemservico" />
+      </div>
+    </div>
+    <hr class="" />
+    <h2 class="teste" style="font-family: 'Scope One', serif">
+      Quem adquiriu este, também gostou de:
+    </h2>
+    <section class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="img/slide/foto1-thumb.jpg" alt="" /></li>
+        <li><img src="img/slide/foto2-thumb.jpg" alt="" /></li>
+        <li><img src="img/slide/foto3-thumb.jpg" alt="" /></li>
+        <li><img src="img/slide/foto4-thumb.jpg" alt="" /></li>
+        <li><img src="img/slide/foto5-thumb.jpg" alt="" /></li>
+        <li><img src="img/slide/foto6-thumb.jpg" alt="" /></li>
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="img/slide/foto1.jpg" alt="" /></li>
+          <li><img src="img/slide/foto2.jpg" alt="" /></li>
+          <li><img src="img/slide/foto3.jpg" alt="" /></li>
+          <li><img src="img/slide/foto4.jpg" alt="" /></li>
+          <li><img src="img/slide/foto5.jpg" alt="" /></li>
+          <li><img src="img/slide/foto6.jpg" alt="" /></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer class="container footer p-5">
+    <div class="row col col-lg-12">
+      <div class="col-6 col-md">
+        <img class="bd-placeholder-img" src="img/logoazul.png" style="width: 100px" />
+
+        <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+      </div>
+
+      <div class="col-6 col-md">
+        <h5>Parcerias</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="link-secondary" href="https://www.microsoft.com/pt-br" target="_blank">Microsoft</a>
+          </li>
+          <li>
+            <a class="link-secondary" href="https://www.meupositivo.com.br/" target="_blank">Positivo</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md">
+        <h5>Redes Sociais</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="link-secondary" href="https://pt-br.facebook.com/" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a class="link-secondary" href="https://www.instagram.com/?hl=pt-br" target="_blank">Instragram</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md">
+        <h5>Localização e Contato</h5>
+        <ul class="list-unstyled text-small">
+          <p>Rio de Janeiro</p>
+          <p>
+            Rua Visconde de Inhaúma, 38 7º andar - Centro Rio de Janeiro - RJ
+            (21) 3523-7300 (21) 2233-6226
+          </p>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="JS/chatbot.js"></script>
+  <script type="text/javascript" src="JS/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="JS/app.js"></script>
+  <script type="text/javascript" src="JS/slide.js"></script>
+  <script type="text/javascript" src="JS/main.js"></script>
+</body>
+
+</html>

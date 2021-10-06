@@ -1,0 +1,115 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  color: #30475e;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+}
+
+.carousel-item {
+  height: 25em;
+  background-color: #30475e;
+}
+
+.carousel-item>img {
+  position: absolute;
+  min-width: 100%;
+  height: 25em;
+  background-color: #30475e;
+}
+
+.botaoprocurar {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.linha-amarela {
+  border-radius: 5px;
+  border-top: 5px solid #fdcf00;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.textservico {
+  color: #6a6a6a;
+}
+
+.textocentroservico {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.section-cinza {
+  background-color: #2d2d2d;
+  margin-bottom: 3px;
+  text-align: auto;
+  color: white;
+}
+
+.clientes .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.barradivisao-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+.barradivisao-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+.barrasub-titulo {
+  border-top: 8px solid #ecd77b;
+  border-radius: 5px;
+  position: absolute;
+  width: 400px;
+  height: 8px;
+  left: 470px;
+}
+
+.featurette-heading {
+  font-size: 50px;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

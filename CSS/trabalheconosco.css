@@ -1,0 +1,59 @@
+body {
+  color: #5a5a5a;
+  overflow-x: hidden;
+}
+
+footer {
+  color: #30475e;
+}
+
+.botaocontato {
+  background-color: #30475e;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.botaocontato:hover {
+  background-color: #ecd77b;
+  color: #30475e;
+}
+
+.linha-amarela {
+  border-radius: 5px;
+  border-top: 5px solid #fdcf00;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.mapa {
+  width: 450;
+  height: 200;
+  border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+  .mapa {
+    width: 330px;
+    height: 200px;
+    text-align: center;
+  }
+}
+
+.barradivisao-divider {
+  margin: 5rem 0;
+}
+
+.botaoprocurar {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

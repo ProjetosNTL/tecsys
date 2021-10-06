@@ -1,0 +1,110 @@
+body {
+  color: #5a5a5a;
+  overflow-x: hidden;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  color: #30475e;
+}
+
+.botaoprocurar {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.slogan {
+  font-family: "Scope One", serif;
+  margin-bottom: 150px;
+}
+
+.slogan h2 {
+  font-size: 50px;
+}
+
+.carousel-item {
+  height: 40em;
+}
+
+.carousel-item>img {
+  position: absolute;
+  min-width: 100%;
+  height: 40em;
+}
+
+@media(max-width:62em) {
+  .slogan h2 {
+    font-size: 25px;
+    padding-top: 10cm;
+    color: black;
+  }
+  .carousel-item {
+    height: 20em;
+  }
+}
+
+.filter {
+  filter: grayscale(30%);
+}
+
+.botaocontato {
+  background-color: #ecd77b;
+  width: 190px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.botaocontato:hover {
+  background-color: white;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.linha-amarela {
+  border-radius: 5px;
+  border-top: 5px solid #fdcf00;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.barradivisao-divider {
+  margin: 5rem 0;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.imagemservico {
+  width: 450px;
+  height: 450px;
+  background-color: #30475e;
+  border-radius: 20px;
+}
+
+@media (max-width: 720px) {
+  .imagemservico {
+    width: 500px;
+    height: 390px;
+  }
+}
